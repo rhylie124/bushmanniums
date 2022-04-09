@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bush_expurgation.png">
+	<!-- NOT Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	
+	
+	<SubTexture name="bushmann idle lol0000" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0001" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0002" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0003" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0004" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0005" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0006" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0007" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0008" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0009" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0010" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0011" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0012" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="bushmann idle lol0013" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	
+	
+	<SubTexture name="bushmann down0000" x="1414" y="925" width="382" height="791" frameX="-10" frameY="-10" frameWidth="382" frameHeight="400"/>
+	<SubTexture name="bushmann down0001" x="1414" y="925" width="382" height="791" frameX="-10" frameY="-10" frameWidth="382" frameHeight="400"/>
+	<SubTexture name="bushmann down0002" x="1819" y="912" width="380" height="793" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0003" x="1819" y="912" width="380" height="793" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0004" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0005" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0006" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0007" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="bushmann down0008" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0009" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0010" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0011" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="bushmann down0012" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0013" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0014" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0015" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="bushmann down0016" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0017" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0018" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0019" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="bushmann down0020" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0021" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0022" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="bushmann down0023" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+
+
+	
+	<SubTexture name="bushmann left0000" x="39" y="907" width="289" height="806"/>
+	<SubTexture name="bushmann left0001" x="39" y="907" width="289" height="806"/>
+	<SubTexture name="bushmann left0002" x="370" y="905" width="287" height="806"/>
+	<SubTexture name="bushmann left0003" x="370" y="905" width="287" height="806"/>
+	<SubTexture name="bushmann left0004" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0005" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0006" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0007" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0008" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0009" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0010" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0011" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0012" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="bushmann left0013" x="64" y="1783" width="287" height="806"/>
+	
+	
+	<SubTexture name="bushmann right0000" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="bushmann right0001" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="bushmann right0002" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="bushmann right0003" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="bushmann right0004" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0005" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0006" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0007" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0008" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0009" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0010" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0011" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0012" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0013" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0014" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0015" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0016" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0017" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0018" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0019" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0020" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0021" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0022" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0023" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0024" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0025" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0026" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0027" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0028" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0029" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0030" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0031" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0032" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="bushmann right0033" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	
+	
+	<SubTexture name="bushmann up0000" x="3377" y="13" width="266" height="852" frameX="-10" frameY="-10" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0001" x="3377" y="13" width="266" height="852" frameX="-10" frameY="-10" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0002" x="3665" y="24" width="266" height="843" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0003" x="3665" y="24" width="266" height="843" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0004" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0005" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0006" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0007" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0008" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0009" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0010" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0011" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0012" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0013" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0014" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0015" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0016" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0017" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0018" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="bushmann up0019" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+</TextureAtlas>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- his name is bush henderson and he's a team fortress 2 sniper lmao -->

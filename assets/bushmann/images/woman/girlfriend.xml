@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="girlfriend.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idleidle0000" x="2074" y="0" width="348" height="469" frameX="-12" frameY="-32" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0001" x="2427" y="0" width="358" height="469" frameX="-2" frameY="-32" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0002" x="2790" y="0" width="360" height="484" frameX="0" frameY="-17" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0003" x="3155" y="0" width="353" height="484" frameX="-7" frameY="-17" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0004" x="3513" y="0" width="345" height="494" frameX="-15" frameY="-7" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0005" x="3513" y="0" width="345" height="494" frameX="-15" frameY="-7" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0006" x="0" y="499" width="342" height="499" frameX="-18" frameY="-2" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0007" x="0" y="499" width="342" height="499" frameX="-18" frameY="-2" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0008" x="347" y="499" width="340" height="501" frameX="-20" frameY="0" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0009" x="347" y="499" width="340" height="501" frameX="-20" frameY="0" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0010" x="692" y="499" width="340" height="501" frameX="-20" frameY="0" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0011" x="692" y="499" width="340" height="501" frameX="-20" frameY="0" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0012" x="1037" y="499" width="344" height="497" frameX="-16" frameY="-4" frameWidth="360" frameHeight="501"/>
+	<SubTexture name="idleidle0013" x="1037" y="499" width="344" height="497" frameX="-16" frameY="-4" frameWidth="360" frameHeight="501"/>
+</TextureAtlas>

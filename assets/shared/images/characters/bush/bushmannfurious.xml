@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bushmannfurious.png">
+	<!-- NOT Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	
+	
+	<SubTexture name="tf2 scout idle0000" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0001" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0002" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0003" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0004" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0005" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0006" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0007" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0008" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0009" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0010" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0011" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0012" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="tf2 scout idle0013" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	
+	
+	<SubTexture name="agoti down0000" x="1414" y="925" width="382" height="791" frameX="-10" frameY="-10" frameWidth="382" frameHeight="400"/>
+	<SubTexture name="agoti down0001" x="1414" y="925" width="382" height="791" frameX="-10" frameY="-10" frameWidth="382" frameHeight="400"/>
+	<SubTexture name="agoti down0002" x="1819" y="912" width="380" height="793" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0003" x="1819" y="912" width="380" height="793" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0004" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0005" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0006" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0007" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="agoti down0008" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0009" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0010" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0011" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="agoti down0012" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0013" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0014" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0015" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="agoti down0016" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0017" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0018" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0019" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+	<SubTexture name="agoti down0020" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0021" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0022" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>
+	<SubTexture name="agoti down0023" x="1390" y="1804" width="382" height="794" frameX="-12" frameY="-8" frameWidth="380" frameHeight="400"/>	
+
+
+	
+	<SubTexture name="ruv left0000" x="39" y="907" width="289" height="806"/>
+	<SubTexture name="ruv left0001" x="39" y="907" width="289" height="806"/>
+	<SubTexture name="ruv left0002" x="370" y="905" width="287" height="806"/>
+	<SubTexture name="ruv left0003" x="370" y="905" width="287" height="806"/>
+	<SubTexture name="ruv left0004" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0005" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0006" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0007" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0008" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0009" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0010" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0011" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0012" x="64" y="1783" width="287" height="806"/>
+	<SubTexture name="ruv left0013" x="64" y="1783" width="287" height="806"/>
+	
+	
+	<SubTexture name="sigma right0000" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="sigma right0001" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="sigma right0002" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="sigma right0003" x="684" y="916" width="337" height="799" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+	<SubTexture name="sigma right0004" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0005" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0006" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0007" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0008" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0009" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0010" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0011" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0012" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0013" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0014" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0015" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0016" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0017" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0018" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0019" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0020" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0021" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0022" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0023" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0024" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0025" x="1037" y="914" width="345" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0026" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0027" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0028" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0029" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0030" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0031" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0032" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	<SubTexture name="sigma right0033" x="686" y="1785" width="352" height="798" frameX="-10" frameY="-10" frameWidth="345" frameHeight="400"/>
+	
+	
+	<SubTexture name="whitty scream up0000" x="3377" y="13" width="266" height="852" frameX="-10" frameY="-10" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0001" x="3377" y="13" width="266" height="852" frameX="-10" frameY="-10" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0002" x="3665" y="24" width="266" height="843" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0003" x="3665" y="24" width="266" height="843" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0004" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0005" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0006" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0007" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0008" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0009" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0010" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0011" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0012" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0013" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0014" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0015" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0016" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0017" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0018" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+	<SubTexture name="whitty scream up0019" x="3584" y="1798" width="267" height="822" frameX="-10" frameY="-21" frameWidth="266" frameHeight="400"/>
+</TextureAtlas>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- his name is bush henderson and he's a team fortress 2 sniper lmao -->

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="micspammer.png">
+	<!-- NOT Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	
+			<!-- idle -->
+	<SubTexture name="pain 0000" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="pain 0001" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="pain 0002" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="pain 0003" x="380" y="11" width="354" height="801" frameX="-13" frameY="-10" frameWidth="354" frameHeight="400"/>
+	<SubTexture name="pain 0004" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="pain 0005" x="753" y="10" width="351" height="799" frameX="-16" frameY="-10" frameWidth="351" frameHeight="400"/>
+	<SubTexture name="pain 0006" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="pain 0007" x="1124" y="9" width="346" height="798" frameX="-26" frameY="-10" frameWidth="346" frameHeight="400"/>
+	<SubTexture name="pain 0008" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="pain 0009" x="1492" y="9" width="333" height="797" frameX="-40" frameY="-10" frameWidth="333" frameHeight="400"/>
+	<SubTexture name="pain 0010" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="pain 0011" x="1840" y="10" width="352" height="799" frameX="-16" frameY="-10" frameWidth="352" frameHeight="400"/>
+	<SubTexture name="pain 0012" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	<SubTexture name="pain 0013" x="9" y="10" width="357" height="800" frameX="-10" frameY="-10" frameWidth="357" frameHeight="400"/>
+	
+		<!-- down -->
+	<SubTexture name="oh 0000" x="162" y="999" width="357" height="923" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+
+
+		<!-- left -->
+	<SubTexture name="my 0000" x="772" y="998" width="357" height="923" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+
+	
+		<!-- right -->
+	<SubTexture name="fucking 0000" x="1368" y="994" width="357" height="923" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+
+	
+		<!-- up -->
+	<SubTexture name="god 0000" x="2065" y="2055" width="1003" height="923" frameX="-10" frameY="-10" frameWidth="337" frameHeight="400"/>
+</TextureAtlas>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- his name is bush henderson and he's a team fortress 2 sniper lmao -->
