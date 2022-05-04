@@ -1193,6 +1193,7 @@ class PlayState extends MusicBeatState
 
 	function startCountdown():Void
 	{
+		
 		inCutscene = false;
 
 		generateStaticArrows(0);
@@ -1218,7 +1219,7 @@ class PlayState extends MusicBeatState
 		Conductor.songPosition = 0 - Conductor.crochet * loops;
 
 		var swagCounter:Int = 0;
-
+		showCredit();
 		startTimer = new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer)
 		{
 			dad.dance();
@@ -2250,15 +2251,17 @@ class PlayState extends MusicBeatState
 		if (!loadRep)
 			rep.SaveReplay(saveNotes);
 
-		if(PlayState.dad.curCharacter == "bushmann") {
+		
+		// UNUSED FOR NOW
+		//if(PlayState.dad.curCharacter == "bushmann") {
 			FlxG.sound.play(Paths.soundRandom("win", 1, 7));
 		
-		}
-		if(PlayState.dad.curCharacter == "bushmann-angry") {
+		//}
+	//	if(PlayState.dad.curCharacter == "bushmann-angry") {
 			FlxG.sound.play(Paths.soundRandom("win", 1, 7));
-		}
+	//	}
 
-		if (FlxG.save.data.fpsCap > 290)
+		//if (FlxG.save.data.fpsCap > 290)
 			(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
 
 		#if windows
@@ -3094,4 +3097,36 @@ class PlayState extends MusicBeatState
 	}
 
 	var curLight:Int = 0;
+
+	function showCredit() {
+		if(SONG.credit != null && SONG.credit != "") {
+			var yLocation = 100;
+			var paddingWidth = 25;
+			var paddingHeight = 10;
+		
+			var songCredit = new FlxText(50, yLocation, 0, SONG.credit, 32);
+			songCredit.setFormat(Paths.font("creditfont1.otf"), 25, FlxColor.CYAN, CENTER);
+			songCredit.updateHitbox();
+			var songCreditBg = new FlxSprite(50, yLocation - paddingHeight/2).makeGraphic(Std.int(songCredit.width + paddingWidth), Std.int(songCredit.height + paddingHeight), FlxColor.BLACK);
+			
+			songCredit.cameras = [camHUD];
+			songCreditBg.cameras = [camHUD];
+		
+			var slide = songCreditBg.width + 60;
+		
+			songCreditBg.x -= slide;
+			songCredit.x = songCreditBg.x;
+		
+			FlxTween.tween(songCredit, {x: songCredit.x + slide}, 0.5, {startDelay: 0.3, ease:FlxEase.expoInOut});
+			FlxTween.tween(songCreditBg, {x: songCreditBg.x + slide}, 0.5, {startDelay: 0.3, ease:FlxEase.expoInOut, onComplete:(_) -> {
+				new FlxTimer().start(1, (_) -> {
+					FlxTween.tween(songCreditBg, {x: songCreditBg.x - slide}, 0.5, {ease:FlxEase.expoInOut});
+					FlxTween.tween(songCredit, {x: songCreditBg.x - slide}, 0.5, {ease:FlxEase.expoInOut});
+				});
+			}});
+		
+			add(songCreditBg);
+			add(songCredit);
+		}
+	}
 }

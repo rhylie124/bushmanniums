@@ -20,6 +20,8 @@ typedef SwagSong =
 	var noteStyle:String;
 	var stage:String;
 	var validScore:Bool;
+
+	@:optional var credit:String;
 }
 
 class Song

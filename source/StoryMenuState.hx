@@ -24,7 +24,7 @@ class StoryMenuState extends MusicBeatState
 	var scoreText:FlxText;
 
 	var weekData:Array<Array<String>> = [
-		['bush', "ambush", "aggravated", "exasperate"]
+		['bush', "ambush", "aggravated", "exasperate", "antagonize"]
 	];
 	var curDifficulty:Int = Difficulty.NORMAL;
 
@@ -192,10 +192,11 @@ class StoryMenuState extends MusicBeatState
 				rightArrow.centerOffsets();
 				leftArrow.centerOffsets();
 
-				if (controls.RIGHT_P)
-					changeDifficulty(1);
-				if (controls.LEFT_P)
-					changeDifficulty(-1);
+						// (will probably add harder difficulties i guess lol)
+				//if (controls.RIGHT_P)
+				//	changeDifficulty(1);
+				//if (controls.LEFT_P)
+				//	changeDifficulty(-1);
 			}
 
 			if (controls.ACCEPT)

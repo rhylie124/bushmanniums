@@ -2,4 +2,5 @@ bush:bushmann:0
 ambush:bushmann:0
 aggravated:bushmann-angry:0
 exasperate:bushmann-angry:0
+antagonize:bushmann-angry:0
 nosimps:bushmann:0
