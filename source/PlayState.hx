@@ -80,6 +80,7 @@ class PlayState extends MusicBeatState
 	public static var goods:Int = 0;
 	public static var sicks:Int = 0;
 	public static var misses:Int = 0;
+	
 
 	var songPosBG:FlxSprite;
 	var songPosBar:FlxBar;
@@ -120,7 +121,7 @@ class PlayState extends MusicBeatState
 
 	private var camZooming:Bool = false;
 	public var curSong:String = "";
-
+	public var vocalsFinished = false;
 	private var gfSpeed:Int = 1;
 	public var health:Float = 1; //making public because sethealth doesnt work without it
 	private var combo:Int = 0;
@@ -445,6 +446,45 @@ class PlayState extends MusicBeatState
 			//	add(forestground);
 			
 			}
+
+			case 'forest-alt':
+			{
+				defaultCamZoom = 0.7;
+
+				curStage = 'forest-alt';
+			//	var randomOcc = FlxG.random.int(0, 5);
+			//	curStage = 'forest';
+			//	var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest' + randomOcc,'bushmann'));
+			//	if(randomOcc == 5) {
+			//		// code here
+			//	}
+			//	bg.antialiasing = true;
+			//	bg.scrollFactor.set(0.9, 0.9);
+			//	bg.active = false;
+			//	add(bg);
+
+			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/sunset1/city','bushmann'));
+			bg.antialiasing = true;
+			bg.scrollFactor.set(0.4, 0.4);
+			bg.active = false;
+			add(bg);
+
+
+			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/front','bushmann'));
+			front.antialiasing = true;
+			front.active = false;
+			add(front);
+				
+			//	var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest-ground','bushmann'));
+			//	forestground.setGraphicSize(Std.int(forestground.width * 1.1));
+			//	forestground.updateHitbox();
+			//	forestground.antialiasing = true;
+			//	forestground.scrollFactor.set(0.9, 0.9);
+			//	forestground.active = false;
+			//	add(forestground);
+			
+			}
+
 			case 'forest-withpeople':
 			{
 				curStage = 'forest-withpeople';
@@ -905,10 +945,10 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'bushmann':
-				camPos.y += 600;
+				camPos.y += 550;
 				camPos.x += -50;
 			case 'bushmann-angry':
-				camPos.y += 600;
+				camPos.y += 550;
 			case 'bush':
 				camPos.x += 450;
 				camPos.y += 450;
@@ -946,6 +986,11 @@ class PlayState extends MusicBeatState
 				case 'forest':
 					dad.y -= 480;
 					dad.x -= 500;
+					case 'forest-alt':
+						dad.y -= 500;
+						dad.x -= 500;
+						boyfriend.y -= 500;
+						boyfriend.x -= 500;
 				case 'simp':
 					dad.x -= 500;
 					boyfriend.y += -500;
@@ -1309,6 +1354,11 @@ class PlayState extends MusicBeatState
 		if (SONG.needsVoices)
 			vocals = vocals.loadEmbedded(Paths.voices(curSong));
 
+		vocals.onComplete = function()
+			{
+				vocalsFinished = true;
+			}
+
 		trace('loaded vocals');
 
 		FlxG.sound.list.add(vocals);
@@ -1547,12 +1597,26 @@ class PlayState extends MusicBeatState
 
 	function resyncVocals():Void
 	{
-		vocals.pause();
+		if (_exiting)
+			return;
 
-		FlxG.sound.music.play();
-		Conductor.songPosition = FlxG.sound.music.time;
-		vocals.time = Conductor.songPosition;
-		vocals.play();
+		if (SONG.needsVoices)
+		{
+			vocals.pause();
+			FlxG.sound.music.play();
+			Conductor.songPosition = FlxG.sound.music.time;
+
+			if (vocalsFinished)
+				return;
+
+			vocals.time = Conductor.songPosition;
+			vocals.play();
+		}
+		else
+		{
+			FlxG.sound.music.play();
+			Conductor.songPosition = FlxG.sound.music.time;
+		}
 
 		#if windows
 		DiscordClient.changePresence(detailsText + " " + songDiscordText + " " + Ratings.GenerateLetterRank(accuracy), "Acc: " + HelperFunctions.truncateFloat(accuracy, 2) + "% | Score: " + songScore + " | Misses: " + misses  , iconRPC);
@@ -1901,11 +1965,12 @@ class PlayState extends MusicBeatState
 						camFollow.y = midpoint.y - 430;
 						camFollow.x = midpoint.x - 100;
 						case 'bushmann':
-							camFollow.y = midpoint.y - 800;
+							camFollow.y = midpoint.y - 50;
+							camFollow.x = midpoint.x - 100;
 							case 'nikusa':
 								camFollow.y = midpoint.y - 800;
 							case 'bushmann-angry':
-								camFollow.y = midpoint.y - 550;
+								camFollow.y = midpoint.y - 450;
 				}
 
 				if (dad.curCharacter == 'mom')
@@ -2254,11 +2319,11 @@ class PlayState extends MusicBeatState
 		
 		// UNUSED FOR NOW
 		//if(PlayState.dad.curCharacter == "bushmann") {
-			FlxG.sound.play(Paths.soundRandom("win", 1, 7));
+		//	FlxG.sound.play(Paths.soundRandom("win", 1, 7));
 		
 		//}
 	//	if(PlayState.dad.curCharacter == "bushmann-angry") {
-			FlxG.sound.play(Paths.soundRandom("win", 1, 7));
+		//	FlxG.sound.play(Paths.soundRandom("win", 1, 7));
 	//	}
 
 		//if (FlxG.save.data.fpsCap > 290)
@@ -3105,10 +3170,9 @@ class PlayState extends MusicBeatState
 			var paddingHeight = 10;
 		
 			var songCredit = new FlxText(50, yLocation, 0, SONG.credit, 32);
-			songCredit.setFormat(Paths.font("creditfont1.otf"), 25, FlxColor.CYAN, CENTER);
+			songCredit.setFormat(Paths.font("creditfont1.otf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			songCredit.updateHitbox();
-			var songCreditBg = new FlxSprite(50, yLocation - paddingHeight/2).makeGraphic(Std.int(songCredit.width + paddingWidth), Std.int(songCredit.height + paddingHeight), FlxColor.BLACK);
-			
+			var songCreditBg = new FlxSprite(50, yLocation - paddingHeight/2).makeGraphic(Std.int(songCredit.width + paddingWidth), Std.int(songCredit.height + paddingHeight), FlxColor.WHITE);
 			songCredit.cameras = [camHUD];
 			songCreditBg.cameras = [camHUD];
 		

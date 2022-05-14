@@ -356,3 +356,4 @@ class AlphaCharacter extends FlxSprite
 		updateHitbox();
 	}
 }
+// importt

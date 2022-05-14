@@ -28,7 +28,7 @@ class FreeplayState extends MusicBeatState
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 
-	private var grpSongs:FlxTypedGroup<Alphabet>;
+	private var grpSongs:FlxTypedGroup<FreeplayAlphabet>;
 
 	private var iconArray:Array<HealthIcon> = [];
 
@@ -51,15 +51,19 @@ class FreeplayState extends MusicBeatState
 
 		// LOAD CHARACTERS
 
+
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
 		add(bg);
 
-		grpSongs = new FlxTypedGroup<Alphabet>();
+		var bgfront:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freeplayblack'));
+		add(bgfront);
+
+		grpSongs = new FlxTypedGroup<FreeplayAlphabet>();
 		add(grpSongs);
 
 		for (i in 0...songs.length)
 		{
-			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].songName, true, false, true);
+			var songText:FreeplayAlphabet = new FreeplayAlphabet(0, (70 * i) + 30, songs[i].songName, true, false);
 			songText.isMenuItem = true;
 			songText.targetY = i;
 			grpSongs.add(songText);
@@ -72,7 +76,7 @@ class FreeplayState extends MusicBeatState
 			add(icon);
 
 			// songText.x += 40;
-			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
+			// DONT PUT X IN THE FIRST PARAMETER OF new FreeplayAlphabet() !!
 			// songText.screenCenter(X);
 		}
 
@@ -82,17 +86,17 @@ class FreeplayState extends MusicBeatState
 		// scoreText.alignment = RIGHT;
 
 		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - 6, 0).makeGraphic(Std.int(FlxG.width * 0.35), 66, 0xFF000000);
-		scoreBG.alpha = 0.6;
+		scoreBG.alpha = 0.7;
 		add(scoreBG);
 
-		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
-		diffText.font = scoreText.font;
-		add(diffText);
+		//diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
+		//diffText.font = scoreText.font;
+		//add(diffText);
 
 		add(scoreText);
 
 		changeSelection();
-		changeDiff();
+		//changeDiff();
 
 		super.create();
 	}
@@ -149,18 +153,18 @@ class FreeplayState extends MusicBeatState
 		}
 	}
 
-	function changeDiff(change:Int = 0)
-	{
-		curDifficulty = HelperFunctions.mod(curDifficulty + change, Difficulty.difficultyArray.length);
+	//function changeDiff(change:Int = 0)
+	//{
+	//	curDifficulty = HelperFunctions.mod(curDifficulty + change, Difficulty.difficultyArray.length);
 
-		// adjusting the highscore song name to be compatible (changeDiff)
+	//	// adjusting the highscore song name to be compatible (changeDiff)
 
-		#if !switch
-		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
-		#end
+	//	#if !switch
+	//	intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
+	//	#end
 
-		diffText.text = Difficulty.fromInt(curDifficulty).toUpperCase();
-	}
+	//	diffText.text = Difficulty.fromInt(curDifficulty).toUpperCase();
+	//}
 
 	function changeSelection(change:Int = 0)
 	{

@@ -214,6 +214,40 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 20, -160);
 
 				playAnim('idle');
+				case 'jojo-nikku':
+					tex = Paths.getSparrowAtlas('characters/otherchar/Nikku_Updated');
+					frames = tex;
+	
+					animation.addByPrefix('idle', "Idle", 24, false);
+					animation.addByPrefix('singUP', "Up", 24, false);
+					animation.addByPrefix('singDOWN', "Down", 24, false);
+					animation.addByPrefix('singLEFT', 'Left', 24, false);
+					animation.addByPrefix('singRIGHT', 'Right', 24, false);
+	
+					addOffset('idle', -3, 0);
+					addOffset("singUP", 57, 80);
+					addOffset("singRIGHT", -36, -60);
+					addOffset("singLEFT", 150, -110);
+					addOffset("singDOWN", -45, -89);
+	
+					playAnim('idle');
+					case 'dynamic':
+					tex = Paths.getSparrowAtlas('characters/otherchar/dynamic');
+					frames = tex;
+	
+					animation.addByPrefix('idle', "Dynamic Idle", 24, false);
+					animation.addByPrefix('singUP', "Dynamic Up", 24, false);
+					animation.addByPrefix('singDOWN', "Dynamic Down", 24, false);
+					animation.addByPrefix('singLEFT', 'Dynamic Left', 24, false);
+					animation.addByPrefix('singRIGHT', 'Dynamic Right', 24, false);
+	
+					addOffset('idle', 31, 69);
+					addOffset("singUP", 30, 80);
+					addOffset("singRIGHT", 27, 52);
+					addOffset("singLEFT", 38, 54);
+					addOffset("singDOWN", 30, 46);
+	
+					playAnim('idle');
 			case 'monster':
 				tex = Paths.getSparrowAtlas('characters/Monster_Assets');
 				frames = tex;
@@ -415,28 +449,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'bushmann down', 24);
 				animation.addByPrefix('singLEFT', 'bushmann left', 24);
 
-				addOffset("idle", 0, 220);
-				addOffset("singUP", -40, 307);
-				addOffset("singRIGHT", -200, 200);
-				addOffset("singLEFT", -401, 80);
-				addOffset("singDOWN", 0, -150);
-
-				playAnim('idle');
-
-			case 'bushmann-expurgation':
-				// bushy ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/bush/exclusive/bush_expurgation', 'shared');
-				frames = tex;
-				animation.addByPrefix('idle', 'bushmann idle lol', 24);
-				animation.addByPrefix('singUP', 'bushmann up', 24);
-				animation.addByPrefix('singRIGHT', 'bushmann right', 24);
-				animation.addByPrefix('singDOWN', 'bushmann down', 24);
-				animation.addByPrefix('singLEFT', 'bushmann left', 24);
-				addOffset("idle", -1, 20);
-				addOffset("singUP", -93, 76);
-				addOffset("singRIGHT", -71, 21);
-				addOffset("singLEFT", -80, 16);
-				addOffset("singDOWN", -54, 1);
+				addOffset("idle", 0, 0);
+				addOffset("singUP", 60, 90);
+				addOffset("singRIGHT", 27, -117);
+				addOffset("singLEFT", 160, -268);
+				addOffset("singDOWN", 180, -420);
 
 				playAnim('idle');
 

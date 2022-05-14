@@ -12,3 +12,5 @@ bush
 micspammer
 bushmann-angry
 nikusa
+nikku
+dynamic
