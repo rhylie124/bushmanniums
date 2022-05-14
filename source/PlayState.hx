@@ -1596,32 +1596,17 @@ class PlayState extends MusicBeatState
 	}
 
 	function resyncVocals():Void
-	{
-		if (_exiting)
-			return;
-
-		if (SONG.needsVoices)
 		{
 			vocals.pause();
 			FlxG.sound.music.play();
 			Conductor.songPosition = FlxG.sound.music.time;
-
+	
 			if (vocalsFinished)
 				return;
-
+	
 			vocals.time = Conductor.songPosition;
 			vocals.play();
 		}
-		else
-		{
-			FlxG.sound.music.play();
-			Conductor.songPosition = FlxG.sound.music.time;
-		}
-
-		#if windows
-		DiscordClient.changePresence(detailsText + " " + songDiscordText + " " + Ratings.GenerateLetterRank(accuracy), "Acc: " + HelperFunctions.truncateFloat(accuracy, 2) + "% | Score: " + songScore + " | Misses: " + misses  , iconRPC);
-		#end
-	}
 
 	private var paused:Bool = false;
 	var startedCountdown:Bool = false;
