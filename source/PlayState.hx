@@ -381,7 +381,7 @@ class PlayState extends MusicBeatState
 
 				// defaultCamZoom = 0.9;
 
-				var bg = new FlxSprite().loadGraphic(Paths.image('images/back/main/pixel/background','bushmann'));
+				var bg = new FlxSprite().loadGraphic(Paths.image('pixelbackground','bushmann'));
 				bg.scrollFactor.set(0.1, 0.1);
 				add(bg);
 				bg.scale.set(6, 6);
@@ -395,14 +395,14 @@ class PlayState extends MusicBeatState
 				curStage = 'simp';
 				
 
-			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/sunset1/city','bushmann'));
+			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('city','bushmann'));
 			bg.antialiasing = true;
 			bg.scrollFactor.set(0.4, 0.4);
 			bg.active = false;
 			add(bg);
 
 
-			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/front','bushmann'));
+			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('front','bushmann'));
 			front.antialiasing = true;
 			front.active = false;
 			add(front);
@@ -416,7 +416,7 @@ class PlayState extends MusicBeatState
 				curStage = 'forest';
 			//	var randomOcc = FlxG.random.int(0, 5);
 			//	curStage = 'forest';
-			//	var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest' + randomOcc,'bushmann'));
+			//	var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest' + randomOcc,'bushmann'));
 			//	if(randomOcc == 5) {
 			//		// code here
 			//	}
@@ -425,19 +425,19 @@ class PlayState extends MusicBeatState
 			//	bg.active = false;
 			//	add(bg);
 
-			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/sunset1/city','bushmann'));
+			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('city','bushmann'));
 			bg.antialiasing = true;
 			bg.scrollFactor.set(0.4, 0.4);
 			bg.active = false;
 			add(bg);
 
 
-			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/front','bushmann'));
+			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('front','bushmann'));
 			front.antialiasing = true;
 			front.active = false;
 			add(front);
 				
-			//	var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest-ground','bushmann'));
+			//	var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-ground','bushmann'));
 			//	forestground.setGraphicSize(Std.int(forestground.width * 1.1));
 			//	forestground.updateHitbox();
 			//	forestground.antialiasing = true;
@@ -454,7 +454,7 @@ class PlayState extends MusicBeatState
 				curStage = 'forest-alt';
 			//	var randomOcc = FlxG.random.int(0, 5);
 			//	curStage = 'forest';
-			//	var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest' + randomOcc,'bushmann'));
+			//	var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest' + randomOcc,'bushmann'));
 			//	if(randomOcc == 5) {
 			//		// code here
 			//	}
@@ -463,19 +463,19 @@ class PlayState extends MusicBeatState
 			//	bg.active = false;
 			//	add(bg);
 
-			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/sunset1/city','bushmann'));
+			var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('city','bushmann'));
 			bg.antialiasing = true;
 			bg.scrollFactor.set(0.4, 0.4);
 			bg.active = false;
 			add(bg);
 
 
-			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/front','bushmann'));
+			var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('front','bushmann'));
 			front.antialiasing = true;
 			front.active = false;
 			add(front);
 				
-			//	var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest-ground','bushmann'));
+			//	var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-ground','bushmann'));
 			//	forestground.setGraphicSize(Std.int(forestground.width * 1.1));
 			//	forestground.updateHitbox();
 			//	forestground.antialiasing = true;
@@ -489,25 +489,25 @@ class PlayState extends MusicBeatState
 			{
 				curStage = 'forest-withpeople';
 				defaultCamZoom = 0.7;
-				var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/sunset1/city','bushmann'));
+				var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('city','bushmann'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.4, 0.4);
 				bg.active = false;
 				add(bg);
 
 				
-				var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/front','bushmann'));
+				var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('front','bushmann'));
 				front.antialiasing = true;
 				front.active = false;
 				add(front);
 
-				var friendz:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/sunset1/theboys2','bushmann'));
+				var friendz:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('theboys2','bushmann'));
 				friendz.antialiasing = true;
 				friendz.active = false;
 				add(friendz);
 	//			var randomOcc = FlxG.random.int(0, 5);
 	//			curStage = 'forest-withpeople';
-	//			var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest' + randomOcc,'bushmann'));
+	//			var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest' + randomOcc,'bushmann'));
 	//			if(randomOcc == 5) {
 	//				// code here
 	//			}
@@ -516,7 +516,7 @@ class PlayState extends MusicBeatState
 	//			bg.active = false;
 	//			add(bg);
 	//			
-	//			var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/forest-ground','bushmann'));
+	//			var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-ground','bushmann'));
 	//			forestground.setGraphicSize(Std.int(forestground.width * 1.1));
 	//			forestground.updateHitbox();
 	//			forestground.antialiasing = true;
@@ -524,7 +524,7 @@ class PlayState extends MusicBeatState
 	//			forestground.active = false;
 	//			add(forestground);
 //
-	//			var friendz:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/sunset1/theboys','bushmann'));
+	//			var friendz:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('theboys','bushmann'));
 	//			friendz.setGraphicSize(Std.int(friendz.width * 1.1));
 	//			friendz.updateHitbox();
 	//			friendz.antialiasing = true;
@@ -537,7 +537,7 @@ class PlayState extends MusicBeatState
 	//			defaultCamZoom = 0.9;
 	//			var randomOccNight = FlxG.random.int(0, 8);
 	//			curStage = 'forest-night';
-	//			var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/night2/forest-night' + randomOccNight,'bushmann'));
+	//			var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-night' + randomOccNight,'bushmann'));
 	//			if(randomOccNight == 3) {
 	//				// code here
 	//			}
@@ -546,7 +546,7 @@ class PlayState extends MusicBeatState
 	//			bg.active = false;
 	//			add(bg);
 	//			
-	//			var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/night2/forest-night-ground','bushmann'));
+	//			var forestground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-night-ground','bushmann'));
 	//			forestground.setGraphicSize(Std.int(forestground.width * 1.1));
 	//			forestground.updateHitbox();
 	//			forestground.antialiasing = true;
@@ -558,14 +558,14 @@ class PlayState extends MusicBeatState
 
 	curStage = 'forest-night';
 
-				var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('back/main/night2/nightground','bushmann'));
+				var bg:FlxSprite = new FlxSprite(-1200, -800).loadGraphic(Paths.image('nightground','bushmann'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.4, 0.4);
 				bg.active = false;
 				add(bg);
 
 
-				var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('back/main/night2/night-background','bushmann'));
+				var front:FlxSprite = new FlxSprite(-1500, -800).loadGraphic(Paths.image('night-background','bushmann'));
 				front.antialiasing = true;
 				front.active = false;
 				add(front);
@@ -575,23 +575,63 @@ class PlayState extends MusicBeatState
 			{
 				defaultCamZoom = 0.9;
 				curStage = 'old';
-				var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/funkystuff/old','bushmann'));
+				var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('old','bushmann'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.9, 0.9);
 				bg.active = false;
 				add(bg);
 			}
+			case 'space':
+			{
+				defaultCamZoom = 0.7;
+				curStage = 'space';
+				var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('somewhere','bushmann'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
+				add(bg);
+			}
+			case 'void':
+				{
+					defaultCamZoom = 0.4;
+					curStage = 'void';
+					var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('blank','bushmann'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
+				}
+			case 'shaggy':
+					{
+						defaultCamZoom = 0.9;
+						curStage = 'shaggy';
+						var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('shaggy','bushmann'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+					}
+					case 'tgt':
+						{
+							defaultCamZoom = 0.9;
+							curStage = 'tgt';
+							var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('tgt','bushmann'));
+							bg.antialiasing = true;
+							bg.scrollFactor.set(0.9, 0.9);
+							bg.active = false;
+							add(bg);
+						}
 			case 'forest-cutscene':
 			{
 				defaultCamZoom = 0.9;
 				curStage = 'forest-cutscene';
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('back/cutscene/forest-cutscene','bushmann'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('forest-cutscene','bushmann'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.9, 0.9);
 				bg.active = false;
 				add(bg);
 
-				var forestcutground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/cutscene/forest-cut-ground','bushmann'));
+				var forestcutground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-cut-ground','bushmann'));
 				forestcutground.setGraphicSize(Std.int(forestcutground.width * 1.1));
 				forestcutground.updateHitbox();
 				forestcutground.antialiasing = true;
@@ -604,14 +644,14 @@ class PlayState extends MusicBeatState
 			{
 				defaultCamZoom = 0.9;
 				curStage = 'witch';
-				var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/witch/forest-night','bushmann'));
+				var bg:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-night','bushmann'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.9, 0.9);
 				bg.active = false;
 				add(bg);
 
 				var fire = new FlxSprite(-600, -360);
-				fire.frames = Paths.getSparrowAtlas('back/main/witch/fire','bushmann');
+				fire.frames = Paths.getSparrowAtlas('fire','bushmann');
 				fire.animation.addByPrefix('fire', 'fire', 2, true);
 				fire.antialiasing = true;
 				fire.updateHitbox();
@@ -621,7 +661,7 @@ class PlayState extends MusicBeatState
 					add(fire);
 				}
 
-				var forestcutground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('back/main/witch/forest-night-ground','bushmann'));
+				var forestcutground:FlxSprite = new FlxSprite(-600, -360).loadGraphic(Paths.image('forest-night-ground-fire','bushmann'));
 				forestcutground.setGraphicSize(Std.int(forestcutground.width * 1.1));
 				forestcutground.updateHitbox();
 				forestcutground.antialiasing = true;
@@ -986,14 +1026,18 @@ class PlayState extends MusicBeatState
 				case 'forest':
 					dad.y -= 480;
 					dad.x -= 500;
+					case 'void':
+						dad.x -= 1500;
+						case 'space':
+							dad.x -= 1000;
 					case 'forest-alt':
 						dad.y -= 500;
 						dad.x -= 500;
-						boyfriend.y -= 500;
-						boyfriend.x -= 500;
+						boyfriend.y -= 0;
+						boyfriend.x -= 200;
 				case 'simp':
 					dad.x -= 500;
-					boyfriend.y += -500;
+					boyfriend.y += -700;
 					
 				case 'forest-night':
 					dad.y -= 500;

@@ -456,6 +456,80 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 180, -420);
 
 				playAnim('idle');
+				case 'bushmann-really-angry': // CAN I PUT MY BALLS IN YO JAWS, BALLS IN YO JAWS, CAN I (CAN I), CAN I (CAN I)
+				// bushy ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/bush/pissed-offb', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
+
+				addOffset("idle", 0, 0);
+				addOffset("singUP", 60, 90);
+				addOffset("singRIGHT", 27, -117);
+				addOffset("singLEFT", 160, -268);
+				addOffset("singDOWN", 180, -420);
+				setGraphicSize(Std.int(width * 1.5));
+				updateHitbox();
+				playAnim('idle');
+
+				case 'sniper': // CAN I PUT MY BALLS IN YO JAWS, BALLS IN YO JAWS, CAN I (CAN I), CAN I (CAN I)
+				// bushy ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/otherchar/sniper', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singDOWN-alt', 'laugh', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
+
+				addOffset("idle", 0, 0);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, 0);
+				addOffset("singLEFT", 0, 0);
+				addOffset("singDOWN", 0, 0);
+				addOffset("singDOWN-alt", 0, 0);
+				playAnim('idle');
+			
+				case 'shaggy': // CAN I PUT MY BALLS IN YO JAWS, BALLS IN YO JAWS, CAN I (CAN I), CAN I (CAN I)
+				// bushy ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/otherchar/shaggy', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'shaggy_idle', 24);
+				animation.addByPrefix('singUP', 'shaggy_up', 24);
+				animation.addByPrefix('singRIGHT', 'shaggy_right', 24);
+				animation.addByPrefix('singDOWN', 'shaggy_down', 24);
+				animation.addByPrefix('singLEFT', 'shaggy_left', 24);
+
+				addOffset("idle", 0, 0);
+				addOffset("singUP", -16, 27);
+				addOffset("singRIGHT", -1, -38);
+				addOffset("singLEFT", 165, -114);
+				addOffset("singDOWN", -10, -160);
+				playAnim('idle');
+
+
+				case 'bushmann-short': // CAN I PUT MY BALLS IN YO JAWS, BALLS IN YO JAWS, CAN I (CAN I), CAN I (CAN I)
+				// bushy ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/bush/smaller-bushmann', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'bushmann idle lol', 24);
+				animation.addByPrefix('singUP', 'bushmann up', 24);
+				animation.addByPrefix('singRIGHT', 'bushmann right', 24);
+				animation.addByPrefix('singDOWN', 'bushmann down', 24);
+				animation.addByPrefix('singLEFT', 'bushmann left', 24);
+
+				addOffset("idle", 0, 0);
+				addOffset("singUP", 60, 90);
+				addOffset("singRIGHT", 27, -117);
+				addOffset("singLEFT", 160, -268);
+				addOffset("singDOWN", 180, -420);
+
+				playAnim('idle');
+
 
 			case 'bush':
 				// bush ANIMATION LOADING CODE

@@ -2,7 +2,7 @@
 	"song": {
 		"credit": "No Simps, cover by bushmann, made by ayybeff",
 		"player1": "bushmann",
-		"player2": "nikusa",
+		"player2": "sniper",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -10465,9 +10465,9 @@
 			}
 		],
 		"initialSpeed": 1.26,
-		"song": "nosimps",
+		"song": "copycat",
 		"validScore": true,
-		"stage": "simp",
+		"stage": "forest",
 		"needsVoices": true,
 		"bpm": 200,
 		"speed": 3.2

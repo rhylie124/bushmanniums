@@ -2,6 +2,14 @@ bush:bushmann:0
 ambush:bushmann:0
 aggravated:bushmann-angry:0
 exasperate:bushmann-angry:0
-antagonize:bushmann-angry:0
-nosimps:nikusa:0
+antagonize:bushmann-really-angry:0
+incandescent:bushmann-really-angry:0
+vexation:bushmann-really-angry:0
+momentum:bushmann-really-angry:0
+no-simps:nikusa:0
 milk:dynamic:0
+kaio-ken:shaggy:0
+bizarre-stance:jojo-nikku:0
+sugar-rush:3d-boshmann:0
+talentless-past:old-bushmann:0
+copycat:sniper:0

@@ -54,6 +54,12 @@ class HealthIcon extends FlxSprite
 		animation.add('dynamic', [42, 43], 0, false, isPlayer);
 		animation.add('scottmann', [44, 45], 0, false, isPlayer);
 		animation.add('boshmann', [46, 47], 0, false, isPlayer);
+		animation.add('shaggy', [48, 49], 0, false, isPlayer);
+		animation.add('sniper', [50, 51], 0, false, isPlayer);
+		animation.add('snipergamer', [52, 53], 0, false, isPlayer);
+		animation.add('bushmann-short', [24, 25], 0, false, isPlayer);
+		animation.add('bushmann-really-angry', [26, 27], 0, false, isPlayer);
+		animation.add('koki-bot-duo', [54, 55], 0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)
